@@ -1,1 +1,1 @@
-web: gunicorn run:app --log-file -
+web: gunicorn NGO_Searcher:app --log-file -
