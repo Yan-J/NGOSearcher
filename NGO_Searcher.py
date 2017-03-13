@@ -57,9 +57,9 @@ def search():
     return render_template('users.html', user_list=user_list,location = location)
 
 if __name__ == '__main__':
-    #from werkzeug.serving import run_simple
-    #run_simple('localhost', 9000, app)
-    app.run()
+    from werkzeug.serving import run_simple
+    run_simple('localhost', 9000, app)
+
 
 
 # In[ ]:
