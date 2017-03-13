@@ -1,1 +1,1 @@
-web: python NGO_Searcher.py
+web: gunicorn run:app --log-file -
