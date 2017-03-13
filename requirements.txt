@@ -1,5 +1,6 @@
 conda==4.2.7
 enum==0.4.6
+gunicorn==19.4.5
 Flask==0.12
 Jinja2==2.9.5
 oauthlib==2.0.1
