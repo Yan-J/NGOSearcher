@@ -1,1 +1,1 @@
-web: uwsgi uwsgi.ini
+web: python NGO_Searcher.py
